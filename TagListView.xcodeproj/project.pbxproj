@@ -15,6 +15,7 @@
 		253C4EC01FECEF3B001CADA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C4EBF1FECEF3B001CADA8 /* main.m */; };
 		253C4ECA1FECEF3B001CADA8 /* TagListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C4EC91FECEF3B001CADA8 /* TagListViewTests.m */; };
 		253C4ED51FECEF3B001CADA8 /* TagListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C4ED41FECEF3B001CADA8 /* TagListViewUITests.m */; };
+		253C4EE81FECF1F7001CADA8 /* TagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C4EE71FECF1F7001CADA8 /* TagListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		253C4ED01FECEF3B001CADA8 /* TagListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		253C4ED41FECEF3B001CADA8 /* TagListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagListViewUITests.m; sourceTree = "<group>"; };
 		253C4ED61FECEF3B001CADA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253C4EE61FECF1F7001CADA8 /* TagListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
+		253C4EE71FECF1F7001CADA8 /* TagListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				253C4EB11FECEF3B001CADA8 /* AppDelegate.m */,
 				253C4EB31FECEF3B001CADA8 /* ViewController.h */,
 				253C4EB41FECEF3B001CADA8 /* ViewController.m */,
+				253C4EE21FECEFEC001CADA8 /* TagListView */,
 				253C4EB61FECEF3B001CADA8 /* Main.storyboard */,
 				253C4EB91FECEF3B001CADA8 /* Assets.xcassets */,
 				253C4EBB1FECEF3B001CADA8 /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				253C4ED61FECEF3B001CADA8 /* Info.plist */,
 			);
 			path = TagListViewUITests;
+			sourceTree = "<group>";
+		};
+		253C4EE21FECEFEC001CADA8 /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+				253C4EE61FECF1F7001CADA8 /* TagListView.h */,
+				253C4EE71FECF1F7001CADA8 /* TagListView.m */,
+			);
+			path = TagListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				253C4EB51FECEF3B001CADA8 /* ViewController.m in Sources */,
 				253C4EC01FECEF3B001CADA8 /* main.m in Sources */,
 				253C4EB21FECEF3B001CADA8 /* AppDelegate.m in Sources */,
+				253C4EE81FECF1F7001CADA8 /* TagListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
